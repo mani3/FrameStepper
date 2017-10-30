@@ -30,6 +30,12 @@
 		311FE02F1F9E29DC0099F7A7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311FE0221F9E29400099F7A7 /* CoreAudio.framework */; };
 		311FE0301F9E2A020099F7A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311FE0211F9E29400099F7A7 /* AVFoundation.framework */; };
 		311FE0311F9E2A100099F7A7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311FE01C1F9E29400099F7A7 /* AudioToolbox.framework */; };
+		31CF965D1FA75C210076F8B5 /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F8B71A1FA7549C00D487CF /* Differentiator.framework */; };
+		31F8B70E1FA74DFD00D487CF /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31F8B70D1FA74DFA00D487CF /* MaterialIcons-Regular.ttf */; };
+		31F8B7101FA74E4400D487CF /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F8B70F1FA74E4400D487CF /* MovieListViewController.swift */; };
+		31F8B7291FA754B500D487CF /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F8B7211FA7549C00D487CF /* RxCocoa.framework */; };
+		31F8B72A1FA754B500D487CF /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F8B7231FA7549C00D487CF /* RxDataSources.framework */; };
+		31F8B72B1FA754B500D487CF /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F8B7251FA7549C00D487CF /* RxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +66,30 @@
 		311FE0241F9E29400099F7A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		311FE0251F9E29400099F7A7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		311FE0291F9E29990099F7A7 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		31F8B70D1FA74DFA00D487CF /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
+		31F8B70F1FA74E4400D487CF /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
+		31F8B7131FA7549C00D487CF /* 45F514A7-D638-3413-BBC1-3C1A1B18D967.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "45F514A7-D638-3413-BBC1-3C1A1B18D967.bcsymbolmap"; sourceTree = "<group>"; };
+		31F8B7141FA7549C00D487CF /* 485B3E2C-09A7-30A3-89C8-33735E7293D4.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "485B3E2C-09A7-30A3-89C8-33735E7293D4.bcsymbolmap"; sourceTree = "<group>"; };
+		31F8B7151FA7549C00D487CF /* 4DFEF40F-88FB-3776-BE64-22CD4D81DF96.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "4DFEF40F-88FB-3776-BE64-22CD4D81DF96.bcsymbolmap"; sourceTree = "<group>"; };
+		31F8B7161FA7549C00D487CF /* 5B542EBA-050B-3E55-949D-8FB558FFA370.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "5B542EBA-050B-3E55-949D-8FB558FFA370.bcsymbolmap"; sourceTree = "<group>"; };
+		31F8B7171FA7549C00D487CF /* 9D60F1B7-E225-38F8-A214-7D9486B9028C.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "9D60F1B7-E225-38F8-A214-7D9486B9028C.bcsymbolmap"; sourceTree = "<group>"; };
+		31F8B7181FA7549C00D487CF /* A3B80C8E-8836-3C99-8E1E-F8095E552052.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "A3B80C8E-8836-3C99-8E1E-F8095E552052.bcsymbolmap"; sourceTree = "<group>"; };
+		31F8B7191FA7549C00D487CF /* D36DCC6B-7738-34F3-9C24-22AD2B512FB1.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "D36DCC6B-7738-34F3-9C24-22AD2B512FB1.bcsymbolmap"; sourceTree = "<group>"; };
+		31F8B71A1FA7549C00D487CF /* Differentiator.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Differentiator.framework; sourceTree = "<group>"; };
+		31F8B71B1FA7549C00D487CF /* Differentiator.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = Differentiator.framework.dSYM; sourceTree = "<group>"; };
+		31F8B71C1FA7549C00D487CF /* E3BAB2F3-B7DD-3008-A5F0-4A23EA1309A4.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "E3BAB2F3-B7DD-3008-A5F0-4A23EA1309A4.bcsymbolmap"; sourceTree = "<group>"; };
+		31F8B71D1FA7549C00D487CF /* E78C61C5-9EC9-3B44-AE6A-386E240338DB.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "E78C61C5-9EC9-3B44-AE6A-386E240338DB.bcsymbolmap"; sourceTree = "<group>"; };
+		31F8B71E1FA7549C00D487CF /* ED8D2A06-42C4-3150-8501-686F61D9D53D.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "ED8D2A06-42C4-3150-8501-686F61D9D53D.bcsymbolmap"; sourceTree = "<group>"; };
+		31F8B71F1FA7549C00D487CF /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxBlocking.framework; sourceTree = "<group>"; };
+		31F8B7201FA7549C00D487CF /* RxBlocking.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = RxBlocking.framework.dSYM; sourceTree = "<group>"; };
+		31F8B7211FA7549C00D487CF /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = "<group>"; };
+		31F8B7221FA7549C00D487CF /* RxCocoa.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = RxCocoa.framework.dSYM; sourceTree = "<group>"; };
+		31F8B7231FA7549C00D487CF /* RxDataSources.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxDataSources.framework; sourceTree = "<group>"; };
+		31F8B7241FA7549C00D487CF /* RxDataSources.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = RxDataSources.framework.dSYM; sourceTree = "<group>"; };
+		31F8B7251FA7549C00D487CF /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxSwift.framework; sourceTree = "<group>"; };
+		31F8B7261FA7549C00D487CF /* RxSwift.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = RxSwift.framework.dSYM; sourceTree = "<group>"; };
+		31F8B7271FA7549C00D487CF /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RxTest.framework; sourceTree = "<group>"; };
+		31F8B7281FA7549C00D487CF /* RxTest.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; path = RxTest.framework.dSYM; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31CF965D1FA75C210076F8B5 /* Differentiator.framework in Frameworks */,
 				311FE0311F9E2A100099F7A7 /* AudioToolbox.framework in Frameworks */,
 				311FE0301F9E2A020099F7A7 /* AVFoundation.framework in Frameworks */,
 				311FE02F1F9E29DC0099F7A7 /* CoreAudio.framework in Frameworks */,
@@ -85,6 +116,9 @@
 				311FE0181F9E287B0099F7A7 /* libavutil.a in Frameworks */,
 				311FE0191F9E287B0099F7A7 /* libswresample.a in Frameworks */,
 				311FE01A1F9E287B0099F7A7 /* libswscale.a in Frameworks */,
+				31F8B7291FA754B500D487CF /* RxCocoa.framework in Frameworks */,
+				31F8B72A1FA754B500D487CF /* RxDataSources.framework in Frameworks */,
+				31F8B72B1FA754B500D487CF /* RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,13 +145,15 @@
 		311FDFF71F9E1D3D0099F7A7 /* FrameStepper */ = {
 			isa = PBXGroup;
 			children = (
+				31F8B70C1FA74D8500D487CF /* Controllers */,
 				311FDFF81F9E1D3D0099F7A7 /* AppDelegate.swift */,
-				311FDFFA1F9E1D3D0099F7A7 /* ViewController.swift */,
-				311FDFFC1F9E1D3D0099F7A7 /* Main.storyboard */,
 				311FDFFF1F9E1D3D0099F7A7 /* Assets.xcassets */,
-				311FE0011F9E1D3D0099F7A7 /* LaunchScreen.storyboard */,
-				311FE0041F9E1D3D0099F7A7 /* Info.plist */,
 				311FE00A1F9E25AE0099F7A7 /* FrameStepper-Bridging-Header.h */,
+				311FE0041F9E1D3D0099F7A7 /* Info.plist */,
+				311FE0011F9E1D3D0099F7A7 /* LaunchScreen.storyboard */,
+				311FDFFC1F9E1D3D0099F7A7 /* Main.storyboard */,
+				31F8B70B1FA74C7D00D487CF /* Resources */,
+				311FDFFA1F9E1D3D0099F7A7 /* ViewController.swift */,
 			);
 			path = FrameStepper;
 			sourceTree = "<group>";
@@ -125,6 +161,7 @@
 		311FE00B1F9E28630099F7A7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				31F8B7121FA7549C00D487CF /* iOS */,
 				311FE0291F9E29990099F7A7 /* VideoToolbox.framework */,
 				311FE01C1F9E29400099F7A7 /* AudioToolbox.framework */,
 				311FE01B1F9E29400099F7A7 /* AudioUnit.framework */,
@@ -157,6 +194,52 @@
 			path = "FFmpeg-iOS/lib";
 			sourceTree = "<group>";
 		};
+		31F8B70B1FA74C7D00D487CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				31F8B70D1FA74DFA00D487CF /* MaterialIcons-Regular.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		31F8B70C1FA74D8500D487CF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				31F8B70F1FA74E4400D487CF /* MovieListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		31F8B7121FA7549C00D487CF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				31F8B7131FA7549C00D487CF /* 45F514A7-D638-3413-BBC1-3C1A1B18D967.bcsymbolmap */,
+				31F8B7141FA7549C00D487CF /* 485B3E2C-09A7-30A3-89C8-33735E7293D4.bcsymbolmap */,
+				31F8B7151FA7549C00D487CF /* 4DFEF40F-88FB-3776-BE64-22CD4D81DF96.bcsymbolmap */,
+				31F8B7161FA7549C00D487CF /* 5B542EBA-050B-3E55-949D-8FB558FFA370.bcsymbolmap */,
+				31F8B7171FA7549C00D487CF /* 9D60F1B7-E225-38F8-A214-7D9486B9028C.bcsymbolmap */,
+				31F8B7181FA7549C00D487CF /* A3B80C8E-8836-3C99-8E1E-F8095E552052.bcsymbolmap */,
+				31F8B7191FA7549C00D487CF /* D36DCC6B-7738-34F3-9C24-22AD2B512FB1.bcsymbolmap */,
+				31F8B71A1FA7549C00D487CF /* Differentiator.framework */,
+				31F8B71B1FA7549C00D487CF /* Differentiator.framework.dSYM */,
+				31F8B71C1FA7549C00D487CF /* E3BAB2F3-B7DD-3008-A5F0-4A23EA1309A4.bcsymbolmap */,
+				31F8B71D1FA7549C00D487CF /* E78C61C5-9EC9-3B44-AE6A-386E240338DB.bcsymbolmap */,
+				31F8B71E1FA7549C00D487CF /* ED8D2A06-42C4-3150-8501-686F61D9D53D.bcsymbolmap */,
+				31F8B71F1FA7549C00D487CF /* RxBlocking.framework */,
+				31F8B7201FA7549C00D487CF /* RxBlocking.framework.dSYM */,
+				31F8B7211FA7549C00D487CF /* RxCocoa.framework */,
+				31F8B7221FA7549C00D487CF /* RxCocoa.framework.dSYM */,
+				31F8B7231FA7549C00D487CF /* RxDataSources.framework */,
+				31F8B7241FA7549C00D487CF /* RxDataSources.framework.dSYM */,
+				31F8B7251FA7549C00D487CF /* RxSwift.framework */,
+				31F8B7261FA7549C00D487CF /* RxSwift.framework.dSYM */,
+				31F8B7271FA7549C00D487CF /* RxTest.framework */,
+				31F8B7281FA7549C00D487CF /* RxTest.framework.dSYM */,
+			);
+			name = iOS;
+			path = Carthage/Build/iOS;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -167,6 +250,8 @@
 				311FDFF11F9E1D3D0099F7A7 /* Sources */,
 				311FDFF21F9E1D3D0099F7A7 /* Frameworks */,
 				311FDFF31F9E1D3D0099F7A7 /* Resources */,
+				31CF965C1FA75A840076F8B5 /* ShellScript */,
+				31F8B7111FA74E9600D487CF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -219,16 +304,55 @@
 				311FE0031F9E1D3D0099F7A7 /* LaunchScreen.storyboard in Resources */,
 				311FE0001F9E1D3D0099F7A7 /* Assets.xcassets in Resources */,
 				311FDFFE1F9E1D3D0099F7A7 /* Main.storyboard in Resources */,
+				31F8B70E1FA74DFD00D487CF /* MaterialIcons-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31CF965C1FA75A840076F8B5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxDataSources.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Differentiator.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxDataSources.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Differentiator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		31F8B7111FA74E9600D487CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint autocorrect\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		311FDFF11F9E1D3D0099F7A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31F8B7101FA74E4400D487CF /* MovieListViewController.swift in Sources */,
 				311FDFFB1F9E1D3D0099F7A7 /* ViewController.swift in Sources */,
 				311FDFF91F9E1D3D0099F7A7 /* AppDelegate.swift in Sources */,
 			);
@@ -370,6 +494,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/FFmpeg-iOS/include/**";
 				INFOPLIST_FILE = FrameStepper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -395,6 +523,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/FFmpeg-iOS/include/**";
 				INFOPLIST_FILE = FrameStepper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
