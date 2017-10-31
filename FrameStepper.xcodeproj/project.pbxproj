@@ -31,6 +31,7 @@
 		311FE0301F9E2A020099F7A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311FE0211F9E29400099F7A7 /* AVFoundation.framework */; };
 		311FE0311F9E2A100099F7A7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311FE01C1F9E29400099F7A7 /* AudioToolbox.framework */; };
 		31CF965D1FA75C210076F8B5 /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F8B71A1FA7549C00D487CF /* Differentiator.framework */; };
+		31CF96841FA8B9DC0076F8B5 /* MovieReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31CF96831FA8B9DC0076F8B5 /* MovieReaderViewController.swift */; };
 		31F8B70E1FA74DFD00D487CF /* MaterialIcons-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 31F8B70D1FA74DFA00D487CF /* MaterialIcons-Regular.ttf */; };
 		31F8B7101FA74E4400D487CF /* MovieListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F8B70F1FA74E4400D487CF /* MovieListViewController.swift */; };
 		31F8B7291FA754B500D487CF /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F8B7211FA7549C00D487CF /* RxCocoa.framework */; };
@@ -66,6 +67,7 @@
 		311FE0241F9E29400099F7A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		311FE0251F9E29400099F7A7 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		311FE0291F9E29990099F7A7 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		31CF96831FA8B9DC0076F8B5 /* MovieReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieReaderViewController.swift; sourceTree = "<group>"; };
 		31F8B70D1FA74DFA00D487CF /* MaterialIcons-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MaterialIcons-Regular.ttf"; sourceTree = "<group>"; };
 		31F8B70F1FA74E4400D487CF /* MovieListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewController.swift; sourceTree = "<group>"; };
 		31F8B7131FA7549C00D487CF /* 45F514A7-D638-3413-BBC1-3C1A1B18D967.bcsymbolmap */ = {isa = PBXFileReference; lastKnownFileType = text; path = "45F514A7-D638-3413-BBC1-3C1A1B18D967.bcsymbolmap"; sourceTree = "<group>"; };
@@ -206,6 +208,7 @@
 			isa = PBXGroup;
 			children = (
 				31F8B70F1FA74E4400D487CF /* MovieListViewController.swift */,
+				31CF96831FA8B9DC0076F8B5 /* MovieReaderViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -352,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31CF96841FA8B9DC0076F8B5 /* MovieReaderViewController.swift in Sources */,
 				31F8B7101FA74E4400D487CF /* MovieListViewController.swift in Sources */,
 				311FDFFB1F9E1D3D0099F7A7 /* ViewController.swift in Sources */,
 				311FDFF91F9E1D3D0099F7A7 /* AppDelegate.swift in Sources */,
