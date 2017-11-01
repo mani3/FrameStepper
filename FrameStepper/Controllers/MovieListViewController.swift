@@ -45,7 +45,8 @@ class MovieListViewController: UIViewController {
             .disposed(by: dispose)
 
         tableView.rx.modelSelected(URL.self)
-            .subscribe(onNext: { (_) in
+            .subscribe(onNext: { [weak self] (url) in
+                self?.performSegue(withIdentifier: "MovieReaderSegue", sender: url)
             })
             .disposed(by: dispose)
     }
@@ -62,5 +63,8 @@ class MovieListViewController: UIViewController {
     // MARK: - Navigation
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let viewController = segue.destination as? MovieReaderViewController, let url = sender as? URL {
+            viewController.url = url
+        }
     }
 }

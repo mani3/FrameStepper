@@ -99,7 +99,7 @@
                     <navigationItem key="navigationItem" id="QBX-WB-JVQ"/>
                     <connections>
                         <outlet property="tableView" destination="Lf5-qi-oUv" id="vNP-fp-yPl"/>
-                        <segue destination="b4H-kC-nTZ" kind="show" id="sdv-Ds-SVM"/>
+                        <segue destination="b4H-kC-nTZ" kind="show" identifier="MovieReaderSegue" id="sdv-Ds-SVM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zq0-gQ-1nH" userLabel="First Responder" sceneMemberID="firstResponder"/>
