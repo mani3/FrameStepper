@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		310CBF7F1FC7146C0046F81E /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310CBF7E1FC7146C0046F81E /* String.swift */; };
 		311FDFF91F9E1D3D0099F7A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311FDFF81F9E1D3D0099F7A7 /* AppDelegate.swift */; };
 		311FDFFB1F9E1D3D0099F7A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311FDFFA1F9E1D3D0099F7A7 /* ViewController.swift */; };
 		311FDFFE1F9E1D3D0099F7A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 311FDFFC1F9E1D3D0099F7A7 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		310CBF7E1FC7146C0046F81E /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		311FDFF51F9E1D3D0099F7A7 /* FrameStepper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FrameStepper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		311FDFF81F9E1D3D0099F7A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		311FDFFA1F9E1D3D0099F7A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +129,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		310CBF7D1FC7145A0046F81E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				310CBF7E1FC7146C0046F81E /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		311FDFEC1F9E1D3D0099F7A7 = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +157,7 @@
 		311FDFF71F9E1D3D0099F7A7 /* FrameStepper */ = {
 			isa = PBXGroup;
 			children = (
+				310CBF7D1FC7145A0046F81E /* Extensions */,
 				31F8B70C1FA74D8500D487CF /* Controllers */,
 				311FDFF81F9E1D3D0099F7A7 /* AppDelegate.swift */,
 				311FDFFF1F9E1D3D0099F7A7 /* Assets.xcassets */,
@@ -357,6 +368,7 @@
 			files = (
 				31CF96841FA8B9DC0076F8B5 /* MovieReaderViewController.swift in Sources */,
 				31F8B7101FA74E4400D487CF /* MovieListViewController.swift in Sources */,
+				310CBF7F1FC7146C0046F81E /* String.swift in Sources */,
 				311FDFFB1F9E1D3D0099F7A7 /* ViewController.swift in Sources */,
 				311FDFF91F9E1D3D0099F7A7 /* AppDelegate.swift in Sources */,
 			);

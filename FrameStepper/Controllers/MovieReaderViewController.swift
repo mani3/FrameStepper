@@ -33,8 +33,9 @@ class MovieReaderViewController: UIViewController {
         var formatContext: UnsafeMutablePointer<AVFormatContext>?
         av_register_all()
 
-        if avformat_open_input(&formatContext, url.absoluteString, nil, nil) != 0 {
-            NSLog("Cloud not open file: %@", url.absoluteString)
+        if avformat_open_input(&formatContext, url.absoluteString.urlDecode, nil, nil) != 0 {
+            NSLog("Cloud not open file: %@", url.absoluteString.urlDecode)
+            return
         }
 
         var tag: UnsafeMutablePointer<AVDictionaryEntry>! = av_dict_get(formatContext!.pointee.metadata, "", nil, AV_DICT_IGNORE_SUFFIX)
