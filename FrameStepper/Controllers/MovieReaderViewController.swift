@@ -82,6 +82,9 @@ class MovieReaderViewController: UIViewController {
             NSLog("Duration: %d, Codec Info Frames: %d, Frames: %d", stream.duration, stream.codec_info_nb_frames, stream.nb_frames)
             let codec = stream.codecpar.pointee
             NSLog("Bit rate: %d, Aspect Ratio: %f", codec.bit_rate, av_q2d(codec.sample_aspect_ratio))
+            NSLog("Width: %d, Height: %d, Channels: %d", codec.width, codec.height, codec.channels)
+            NSLog("Codec: %s", avcodec_get_name(codec.codec_id))
+            NSLog("Frame size: %d", codec.frame_size)
         }
 
         let ret = avformat_find_stream_info(formatContext, nil)
